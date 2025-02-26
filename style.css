@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./back1.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    position: relative;
+}
+
+.container{
+    background-color: rgba(75, 124, 185, 0.397);
+    padding: 40px;
+    border-radius: 10px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+
+    
+}
+.container h1{
+    font-size: 50 px; 
+    letter-spacing: 3px;
+
+
+}
+
+
+button{
+    padding:  15px 25px;
+    border-radius: 10px;
+    border: none;
+    background-color:green;
+    color: white;
+    
+}
